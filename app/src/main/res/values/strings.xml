@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">DonationPart</string>
+<string-array name="bank_type">
+    <item>Public Bank</item>
+    <item>Maybank</item>
+    <item>CIMB Bank</item>
+    <item>Hong Leong Bank</item>
+    <item>RHB Bank</item>
+</string-array>
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "655983986232",
+    "firebase_url": "https://leaving-no-one-behind-9dcf7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "leaving-no-one-behind-9dcf7",
+    "storage_bucket": "leaving-no-one-behind-9dcf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655983986232:android:ff73f57a5b3696abc448cd",
+        "android_client_info": {
+          "package_name": "com.example.donationpart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655983986232-90sgc3gil3hfuk5svb7u71pghgc4d3c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeK_N4xxLTvMInopl2QnPQZG3_BRMHyjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655983986232-90sgc3gil3hfuk5svb7u71pghgc4d3c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655983986232:android:ca8dd8a225d7797ac448cd",
+        "android_client_info": {
+          "package_name": "com.example.leavingnoonebehind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655983986232-90sgc3gil3hfuk5svb7u71pghgc4d3c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeK_N4xxLTvMInopl2QnPQZG3_BRMHyjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655983986232-90sgc3gil3hfuk5svb7u71pghgc4d3c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

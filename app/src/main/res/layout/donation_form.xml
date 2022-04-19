@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5DC"
+    android:visibility="visible"
+    tools:context=".DonationForm">
+
+    <Button
+        android:id="@+id/btn500"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="RM500"
+        app:layout_constraintStart_toEndOf="@+id/btn250"
+        app:layout_constraintTop_toBottomOf="@+id/btn50" />
+
+    <Button
+        android:id="@+id/btn250"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="44dp"
+        android:text="RM250"
+        app:layout_constraintBottom_toTopOf="@+id/tvInput"
+        app:layout_constraintEnd_toStartOf="@+id/btn500" />
+
+    <Button
+        android:id="@+id/btn100"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="17dp"
+        android:text="RM100"
+        app:layout_constraintEnd_toStartOf="@+id/btn250"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <Button
+        android:id="@+id/btn50"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:text="RM50"
+        app:layout_constraintStart_toEndOf="@+id/btn25"
+        app:layout_constraintTop_toBottomOf="@+id/tvText" />
+
+    <Button
+        android:id="@+id/btn25"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="18dp"
+        android:text="RM25"
+        app:layout_constraintBottom_toTopOf="@+id/btn250"
+        app:layout_constraintEnd_toStartOf="@+id/btn50"
+        app:layout_constraintStart_toEndOf="@+id/btn5"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="115dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="17dp"
+        android:text="Rm5"
+        app:layout_constraintEnd_toStartOf="@+id/btn25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvText" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="43dp"
+        android:text="Make a Secure Donation"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvInput"
+        android:layout_width="373dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:hint="Input any amount (RM)"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnDonate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn500" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="41dp"
+        android:text="Donate to children in need with a one-time donation to ChildFund. Your gift will be able to help children and alleviate poverty."
+        android:textColor="#ACA5A5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <Button
+        android:id="@+id/btnDonate"
+        android:layout_width="264dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="74dp"
+        android:text="DONATE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInput" />
+
+    <TextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="205dp"
+        android:text="This field cannot be left empty"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
